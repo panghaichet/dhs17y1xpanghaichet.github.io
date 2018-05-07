@@ -1,0 +1,39 @@
+h1{
+text-align: center;
+}
+
+img {
+    width:"20";
+    height:"10";
+}
+
+body {
+    background-image: url("background.jpg")
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+	
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+p {
+text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
